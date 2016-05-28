@@ -63,7 +63,7 @@ angular.module('cfp.loadingBarInterceptor', ['cfp.loadingBar'])
       /**
        * Determine if the response has already been cached
        * @param  {Object}  config the config option from the request
-       * @return {Boolean} retrns true if cached, otherwise false
+       * @return {Boolean} returns true if cached, otherwise false
        */
       function isCached(config) {
         var cache;
